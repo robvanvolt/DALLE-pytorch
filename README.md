@@ -21,6 +21,15 @@ Before we replicate this, we can settle for <a href="https://github.com/lucidrai
 - <a href="https://github.com/kobiso">Kobiso</a>, a research engineer from Naver, has trained on both the CUBS and COCO dataset <a href="https://github.com/lucidrains/DALLE-pytorch/issues/38#issuecomment-778735034">here</a>, using full and deepspeed sparse attention
 - <a href="https://github.com/afiaka87">afiaka87</a> has managed one epoch using a 32 layer reversible DALL-E <a href="https://github.com/lucidrains/DALLE-pytorch/issues/86#issue-832121328">here</a>
 
+## Datasets
+
+|name|size|image count|link|captions given|
+|-|-|-|-|-|
+|YFCC100M|11TB|99.2M|https://gitlab.com/jfolz/yfcc100m|✅|
+|Wikipedia|???|11.5M|https://github.com/google-research-datasets/wit|✅|
+|OpenImages v6|16GB|1.9M|https://storage.googleapis.com/openimages/web/download.html|✅|
+
+
 ## Install
 
 ```bash
